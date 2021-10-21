@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #f0da1be7;
+    --secondary-color: #030e12;
+    --tertiary-color: #59b4ad;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* apply style to header */
+header {
+    padding: 10px 25px;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header h1 {
+    font-size: 40px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    position: relative; left: -75px;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+/* end style to header */
+
+.hero{
+    margin: 50px auto;
+    width: 100px;
+    height: 400%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* apply style to About Me section */
+.about {
+    width: 90%;
+    padding: 60px 50px;
+    display: inline-flex;
+    margin-bottom: 40px;
+    position: relative; bottom: -150px; right: -20px;
+    
+}
+#aboutme {
+    color: var(--tertiary-color);
+}
+
+.about h2 {
+    font-size: 42px;
+}
+
+.about p{
+    text-align: center;
+}
+/* apply style to About Me section end */
+
+/* apply style to Work section */
+.projects {
+    width: 100%;
+    padding: 60px 50px;
+    display: inline-flex;
+    margin:  0 auto;
+    position: relative; bottom: -150px; right: -20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#work {
+    font-size: 36px;
+
+}
+.run-buddy {
+    flex: 1;
+    margin: 20px;
+}
