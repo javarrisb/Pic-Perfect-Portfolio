@@ -12,6 +12,7 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
 }
 
 /* apply style to header */
@@ -55,19 +56,20 @@ header nav ul li a {
 /* end style to header */
 
 .hero{
+    background-image: url(".\images\headshot.jpg");
     margin: 50px auto;
     width: 100px;
-    height: 400%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 
 }
 /* apply style to About Me section */
 .about {
-    width: 90%;
-    padding: 60px 50px;
+    width: 100%;
+    padding: 50px auto;
     display: inline-flex;
-    margin-bottom: 40px;
+    margin: 20px;
     position: relative; bottom: -150px; right: -20px;
     
 }
@@ -79,9 +81,13 @@ header nav ul li a {
     font-size: 42px;
 }
 
+.about-img {
+    object-fit: fill;
+}
 .about p{
     text-align: center;
 }
+
 /* apply style to About Me section end */
 
 /* apply style to Work section */
