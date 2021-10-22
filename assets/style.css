@@ -56,7 +56,7 @@ header nav ul li a {
 /* end style to header */
 
 .hero{
-    background-image: url(".\images\headshot.jpg");
+    background-image: url("imagess/images/tech.jpg");
     margin: 50px auto;
     width: 100px;
     height: 100%;
@@ -70,20 +70,24 @@ header nav ul li a {
     padding: 50px auto;
     display: inline-flex;
     margin: 20px;
-    position: relative; bottom: -150px; right: -20px;
+    position: relative; bottom: -100px; right: -20px;
     
 }
 #aboutme {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 .about h2 {
     font-size: 42px;
+    margin: 40px;
 }
 
-.about-img {
-    object-fit: fill;
+#about-me-image {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
 }
+
 .about p{
     text-align: center;
 }
@@ -91,21 +95,25 @@ header nav ul li a {
 /* apply style to About Me section end */
 
 /* apply style to Work section */
-.projects {
-    width: 100%;
-    padding: 60px 50px;
-    display: inline-flex;
-    margin:  0 auto;
-    position: relative; bottom: -150px; right: -20px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #work {
-    font-size: 36px;
+    color: var(--secondary-color);
+}
+
+.projects {
+    padding: 0 50px;
+    margin: 200px;
+}
+
+div.portfolio h2 {
+    font-size: 42px;
+    margin: 50px;
+    position: relative; right: 250px; top: 350px;
 
 }
-.run-buddy {
-    flex: 1;
-    margin: 20px;
+
+div.portfolio img {
+    width: 100%;
+    height: auto;
+    position: relative; left: 100px;
+    
 }
