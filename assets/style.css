@@ -100,20 +100,114 @@ header nav ul li a {
 }
 
 .projects {
-    padding: 0 50px;
+    padding: 0;
     margin: 200px;
 }
 
 div.portfolio h2 {
     font-size: 42px;
-    margin: 50px;
-    position: relative; right: 250px; top: 350px;
+    margin: 100px;
+    position: relative; right: 220px; top: 150px;
 
 }
 
 div.portfolio img {
     width: 100%;
     height: auto;
-    position: relative; left: 100px;
-    
+    border: 3px solid var(--tertiary-color);
+    position: relative; left: 120px;
+}
+
+div.info {
+    width: 25%;
+    font-size: 28px;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    position: relative; bottom: 100px; left: 125px;
+    margin-bottom: 25px;
+    background-color: var(--tertiary-color);
+}
+
+div.app img{
+    width: 500px;
+    height: 200px;
+    border: 3px solid var(--tertiary-color);
+    position: relative; bottom: 115px; left: 120px;
+}
+
+div.info-2 {
+    width: 25%;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    position: relative; bottom: 185px; left: 120px;
+    margin-bottom: 25px;
+    background-color: var(--tertiary-color);
+}
+
+div.apply img {
+    width: 500px;
+    height: 200px;
+    border:3px solid var(--tertiary-color);
+    position: relative; top: -405px; right:-675px;
+}
+
+div.info-3 {
+    width: 25%;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    position: relative; bottom: 465px; left: 675px;
+    margin-bottom: 25px;
+    background-color: var(--tertiary-color);
+}
+
+div.applicate img {
+    width: 500px;
+    height: 200px;
+    border: 3px solid var(--tertiary-color);
+    position: relative; bottom: 450px; left: 120px;
+}
+
+div.info-4 {
+    width: 25%;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    position: relative; bottom: 510px; left: 120px;
+    margin-bottom: 25px;
+    background-color: var(--tertiary-color);
+}
+
+div.application img{
+    width: 500px;
+    height: 200px;
+    border: 3px solid var(--tertiary-color);
+    position: relative; top: -730px; right:-675px;
+}
+
+div.info-5 {
+    width: 25%;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    position: relative; bottom: 790px; left: 675px;
+    margin-bottom: 25px;
+    background-color: var(--tertiary-color);
+}
+/* end style to Work section */
+
+/* apply style to Contact section */
+.contact {
+    position: relative; bottom: 800px;
+}
+
+.contact h2 {
+    font-size: 42px;
+    margin: 20px;
 }
