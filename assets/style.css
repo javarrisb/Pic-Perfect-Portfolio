@@ -128,10 +128,6 @@ div.portfolio img {
     position: relative; left: 120px;
 }
 
-div.portfolio img:hover {
-    background-color: var(--tertiary-color);
-}
-
 div.app img{
     width: 400px;
     height: 200px;
@@ -283,12 +279,13 @@ div.contact-point a:active {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 381px) {
 
     header {
         justify-content: center;
         align-items: center;
-        width: 100;
+        max-width: 100%;
+        flex-direction: column;
     }
     header nav ul li a {
         justify-content: space-around;
