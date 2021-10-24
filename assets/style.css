@@ -32,8 +32,23 @@ header h1 {
 }
 
 header a {
-    text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+
+header a:link {
+    color: var(--secondary-color);
+}
+
+header a:visited {
+    color: var(--secondary-color);
+}
+
+header a:hover {
+    color: blue;
+}
+
+header a:active {
+    color: blue;
 }
 
 header nav {
@@ -55,15 +70,6 @@ header nav ul li a {
 }
 /* end style to header */
 
-.hero{
-    background-image: url("imagess/images/tech.jpg");
-    margin: 50px auto;
-    width: 100px;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
-}
 /* apply style to About Me section */
 .about {
     width: 100%;
@@ -79,7 +85,7 @@ header nav ul li a {
 
 .about h2 {
     font-size: 42px;
-    margin: 40px;
+    margin: 20px;
 }
 
 #about-me-image {
@@ -203,11 +209,45 @@ div.info-5 {
 /* end style to Work section */
 
 /* apply style to Contact section */
+
+#contact-me {
+    color: var(--secondary-color)
+}
 .contact {
     position: relative; bottom: 800px;
+
 }
 
 .contact h2 {
-    font-size: 42px;
-    margin: 20px;
+    font-size: 36px;
+    position: relative; top: 30px;
+    
 }
+
+div.contact-point {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    position: relative; left: 140px;
+}
+
+div.contact-point a:link {
+    color: black;
+}
+
+div.contact-point a:visited {
+    color: black;
+}
+
+div.contact-point a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+div.contact-point a:active {
+    color: black;
+}
+/* end style to Contact Me section */
+
